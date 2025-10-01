@@ -8,13 +8,21 @@
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-user_choice = input("===== Coin Flipper =====")
-if user_choice == 'heads':
+#user_choice = input("===== Coin Flipper =====")
+#if user_choice == 'heads':
+#    print("Heads")
+#if user_choice == 'tails':
+#    print("Tails")
+import random
+print(random.randint(1,100))
+
+heads = (1,50)
+if random.randint in range(1,50):
+    print("===== Coin Flipper =====")
     print("Heads")
-if user_choice == 'tails':
+else:
+    print("===== Coin Flipper =====")
     print("Tails")
-
-
 
 
 
