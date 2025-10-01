@@ -1,6 +1,6 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
+# NAME: Alex Carfora
+# DATE: 10/1/25
 # BRIEF DESCRIPTION:  
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
@@ -8,7 +8,11 @@
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
+user_choice = input("===== Coin Flipper =====")
+if user_choice == 'heads':
+    print("Heads")
+if user_choice == 'tails':
+    print("Tails")
 
 
 
