@@ -14,16 +14,21 @@
 #if user_choice == 'tails':
 #    print("Tails")
 import random
-print(random.randint(1,100))
+#print(random.randint(1,100))
 
-heads = (1,50)
-if random.randint in range(1,50):
-    print("===== Coin Flipper =====")
+#heads = (1,50)
+#if random.randint in range(1,50):
+#    print("===== Coin Flipper =====")
+#    print("Heads")
+#else:
+#    print("===== Coin Flipper =====")
+#    print("Tails")
+print("===== Coin Flipper =====")
+number = random.randint(1, 100)
+if number <= 50:
     print("Heads")
 else:
-    print("===== Coin Flipper =====")
     print("Tails")
-
 
 
 
